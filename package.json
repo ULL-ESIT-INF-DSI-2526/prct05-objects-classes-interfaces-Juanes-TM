@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsc-watch --onSuccess \"node dist/ejercicio-1/main.js\"",
+    "dev": "tsc-watch --onSuccess \"node dist/ejercicio-2/juego.js\"",
     "doc": "typedoc",
     "test": "vitest run",
     "coverage": "npx vitest run --coverage"
@@ -15,6 +15,7 @@
   "type": "commonjs",
   "devDependencies": {
     "@eslint/js": "^9.39.2",
+    "@types/node": "^25.3.3",
     "@vitest/coverage-v8": "^4.0.18",
     "eslint": "^9.39.2",
     "eslint-config-prettier": "^10.1.8",
